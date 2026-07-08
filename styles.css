@@ -22,3 +22,13 @@ img {
   display: block;
   max-inline-size: 100%;
 }
+
+form {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+}
+
+body {
+    display: flex;
+}
