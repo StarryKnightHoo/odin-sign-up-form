@@ -1,7 +1,13 @@
 @import "modern-normalize";
+@font-face {
+    font-family: "Norsebold";
+    src: url("Norsebold.otf");
+    font-weight: bold;
+}
 
 :root {
   line-height: 1.5;
+  font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, figure, p, ol, ul {
@@ -49,6 +55,8 @@ body {
     background: rgba(0, 0, 0, 0.5);
     color: white;
     text-align: center;
+    font-family: "Norsebold", sans-serif;
+    font-size: clamp(2.5rem, 1.5rem + 4vw, 4rem);
 }
 
 .caption-message {
