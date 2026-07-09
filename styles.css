@@ -180,3 +180,18 @@ button:hover {
 .log:hover {
     color:#a4a639;
 }
+
+input {
+    border: 1px solid #E5E7EB;
+    border-radius: 4px;
+}
+
+input:user-invalid {
+    border: 1px solid red;
+}
+
+input:focus {
+    border: 1px solid blue;
+    box-shadow: 2px 2px 2px rgb(215, 212, 212);
+    outline: none;
+}
