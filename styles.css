@@ -57,8 +57,18 @@ body {
     text-align: center;
     font-family: "Norsebold", sans-serif;
     font-size: clamp(2.5rem, 1.5rem + 4vw, 4rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 1em;
+    height: auto;
 }
 
 .caption-message {
     opacity: 1.0;
 }
+
+
