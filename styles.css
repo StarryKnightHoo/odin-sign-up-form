@@ -33,7 +33,8 @@ img {
 
 form {
     width: 64vw;
-    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
 }
 
 a {
